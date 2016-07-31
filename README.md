@@ -4,7 +4,7 @@
 明文php
 AES加密后SqdeMqCpaO8qfXP+Z2ICoQ==
 
-···php
+```php
 $key = '1111111122222222';
 $content = 'php';
 $content2 = 'SqdeMqCpaO8qfXP+Z2ICoQ==';
@@ -14,5 +14,5 @@ $content =$aes->strPad($content, 16);
 echo $aes->encode($content);
 echo "<br>";
 echo $aes->decode($content2);
-···
+```
 得到的结果和对方的一致完成。
