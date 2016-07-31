@@ -1,0 +1,21 @@
+
+{
+    "name": "crazyfd/phpaes",
+    "description": "PHP aes 加解密",
+	"keywords": ["java", "PHP", "aes"],
+	"type": "php-aes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crazyfd",
+            "email": "crazyfd@qq.com"
+        }
+    ],
+	
+    "require": {
+        "php": ">=5.5.0",
+    },
+	"autoload": {
+		"psr-4": { "crazyfd\\phpaes\\": "" }
+	}
+}
